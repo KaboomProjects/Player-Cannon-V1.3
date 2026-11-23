@@ -1,0 +1,28 @@
+# PlayerCannon Konfiguration  (nach Änderungen: /playercannon reload)
+
+# Wartezeit zwischen zwei Schüssen pro Spieler (Millisekunden)
+cooldown-ms: 1000
+
+# Abstand zwischen den einzelnen Pearls in Ticks (20 Ticks = 1 Sekunde). 0 = alle gleichzeitig
+launch-delay-ticks: 2
+
+# Maximale Entfernung (Blöcke) zwischen Schütze und Ziel
+max-distance: 150
+
+# true = kein Enderpearl-Schaden beim Aufprall (Teleport ohne Fallschaden)
+no-pearl-damage: true
+
+# Partikel-Spur der Pearls im Flug
+trail-particles: true
+
+# Sounds & Effekte (Start, Ziel, Teleport)
+effects: true
+
+# Verlinkte Spieler bekommen eine Actionbar-Nachricht, wenn sie abgefeuert werden
+notify-linked: true
+
+# Name der Angel (Farbcodes mit &)
+rod-name: "&d&lPlayer Cannon"
+rod-lore:
+  - "&7Auswerfen & einholen:"
+  - "&7Verlinkte Spieler fliegen zum Hook."
